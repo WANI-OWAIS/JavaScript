@@ -17,29 +17,30 @@
 
 
 // 4. Build a calculator:
-// let ans;
-// function calc(a, b, operator) {
-//     switch (operator) {
-//         case "Add":
-//             ans = a + b;
-//             break;
-//         case "Sub":
-//             ans = a - b;
-//             break;
-//         case "Mul":
-//             ans = a * b;
-//             break;
-//         case "Div":
-//             ans = a / b;
-//             break;
-//     }
-//     return ans;
-// }
+let ans;
+function calc(a, b, operator) {
+    switch (operator) {
+        case "+":
+            ans = a + b;
+            break;
+        case "-":
+            ans = a - b;
+            break;
+        case "*":
+            ans = a * b;
+            break;
+        case "/":
+            ans = a / b;
+            break;
+        default:    
+    }
+    return ans;
+}
 
-// let res = calc(2, 3, "Add");
-// console.log(res);
+let res = calc(2, 3,"+");
+console.log(res);
 
 // 5. Score logic:
-let marks = 82;
-let res = marks >= 80 ? "Excellent" : marks >= 60 ? "Good" : marks >= 40 ? "Average" : "Fail";
-console.log(res);
+// let marks = 82;
+// let res = marks >= 80 ? "Excellent" : marks >= 60 ? "Good" : marks >= 40 ? "Average" : "Fail";
+// console.log(res);
