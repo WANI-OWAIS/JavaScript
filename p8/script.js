@@ -70,6 +70,20 @@
 // };
 // let copy = {...obj};
 
+// 8. Create a deep copy of an object with nested structure
+const originalObject = {
+    name: "John",
+    age: 30,
+    address: {
+        street: "123 Main St",
+        city: "New York",
+        country: "USA"
+    },
+    hobbies: ["reading", "traveling", "swimming"]
+};
+const deepCopyObject = JSON.parse(JSON.stringify(originalObject));
+console.log(deepCopyObject);
+
 // 9. Use optional chaining to safely access deep values
 // let user = {
 //      name: "Tom",
@@ -81,10 +95,10 @@
 // console.log(user?.address?.city);
 
 // 10. Use a variable as a key using computed properties
-let key = "role";
+// let key = "role";
 
-let obj = {
-    name: "Bob",
-    [key]: "Developer"
-};
-console.log(obj);
+// let obj = {
+//     name: "Bob",
+//     [key]: "Developer"
+// };
+// console.log(obj);
