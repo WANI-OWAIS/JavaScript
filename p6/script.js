@@ -49,14 +49,14 @@
 
 
 // 6. Use a function to log even numbers in array
-// function findEven(...nums){
-//    nums.forEach((val) =>{
-//      if(val%2 === 0){
-//         console.log(val);
-//      }
-//    })
+// function logEvenNumbers(arr) {
+//   arr.forEach(num => {
+//     if (num % 2 === 0) {
+//       console.log(num);
+//     }
+//   });
 // }
-// findEven(1,2,3,4,5,6,7,8,9);
+// logEvenNumbers([1,2,3,4,5,6,7,8,9]);
 
 
 // 7. Create a pure function to add tax

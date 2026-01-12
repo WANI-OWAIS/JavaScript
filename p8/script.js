@@ -97,8 +97,8 @@ console.log(deepCopyObject);
 // 10. Use a variable as a key using computed properties
 // let key = "role";
 
-// let obj = {
-//     name: "Bob",
-//     [key]: "Developer"
-// };
-// console.log(obj);
+let obj = {
+    name: "Bob",
+    [key]: "Developer"
+};
+console.log(obj);
