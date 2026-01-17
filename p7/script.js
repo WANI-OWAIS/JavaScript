@@ -52,11 +52,11 @@
 // let [first,second] = arr;
 
 // 9. Use some() to check if any student failed
-// let marks = [85,74,90,38,40];
-// let res = marks.some(function(val){
-//     return val < 40;
-// });
-// console.log(res);
+let marks = [85,74,90,38,40];
+let res = marks.some(function(val){
+    return val < 40;
+});
+console.log(res);
 
 // 10. Use spread to copy and add new item
 let arr1 = [1,2,3,4,5];
