@@ -84,10 +84,10 @@
 
 
 // 10. Make a toUpperCase transformer using HOF
-// function transform(string){
-//    return function toUpper(){
-//       return string.toUpperCase();
-//    }
-// }
-// let res = transform("owais");
-// console.log(res());
+function transform(string){
+   return function toUpper(){
+      return string.toUpperCase();
+   }
+}
+let res = transform("owais");
+console.log(res());
