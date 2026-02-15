@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stop event propagation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        #main {
+            min-height: 100vh;
+            background-color: #222;
+            color: white;
+        }
+
+        #nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 15px 30px;
+            background-color: #111;
+        }
+
+        #nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+
+        #nav a:hover {
+            color: #00bcd4;
+        }
+
+        #btn {
+            padding: 6px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #00bcd4;
+            color: black;
+            font-size: 14px;
+        }
+
+        #btn:hover {
+            background-color: #0097a7;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <nav id="nav">
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <button id="btn">Click Me</button>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

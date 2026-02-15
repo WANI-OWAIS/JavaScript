@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Capturing Demo</title>
+    <style>
+        #outer {
+            width: 400px;
+            height: 400px;
+            background-color: #f44336;
+            padding: 20px;
+        }
+
+        #middle {
+            width: 250px;
+            height: 250px;
+            background-color: #ff9800;
+            padding: 20px;
+        }
+
+        #inner {
+            width: 100px;
+            height: 100px;
+            background-color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="outer">
+        Outer
+        <div id="middle">
+            Middle
+            <div id="inner">
+                Inner
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
