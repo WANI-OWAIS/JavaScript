@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #222;
+            color: #fff;
+        }
+
+        #hide{
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input required minlength="3" maxlength="10" id="name" type="text" placeholder="name" />
+      <div id="hide">
+        <br>
+        <small>your name should be greater than 2 characters</small>
+      </div>
+      <br><br>
+      <input type="email" placeholder="email" />
+      <br><br>
+      <input type="password" placeholder="password" />
+      <br><br>
+
+      <select>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select>
+      <br><br>
+      
+      <textarea placeholder="Tell us about you..."></textarea>
+      <br><br>
+
+      <input type="submit">
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
