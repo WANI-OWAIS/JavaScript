@@ -3,4 +3,4 @@ let btn = document.querySelector("button");
 
 btn.addEventListener("click", function(){
     para.textContent = "Updated paragraph text";
-})
+});
