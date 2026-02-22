@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pattern Validation</title>
+</head>
+<body>
+
+<form>
+
+    <!-- Name: Only letters allowed -->
+    <div>
+        <label>Name:</label><br>
+        <input type="text"
+               placeholder="Enter Name"
+               pattern="[A-Za-z]+"
+               title="Only letters are allowed"
+               required>
+    </div>
+
+    <br>
+
+    <!-- Email: Basic email pattern -->
+    <div>
+        <label>Email:</label><br>
+        <input type="email"
+               placeholder="Enter Email"
+               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
+               title="Enter a valid email address"
+               required>
+    </div>
+
+    <br>
+
+    <!-- Password: Minimum 8 characters -->
+    <div>
+        <label>Password:</label><br>
+        <input type="password"
+               placeholder="Enter Password"
+               pattern=".{8,}"
+               title="Password must be at least 8 characters long"
+               required>
+    </div>
+
+    <br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
