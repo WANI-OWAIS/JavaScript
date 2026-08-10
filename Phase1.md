@@ -1,5 +1,4 @@
 # 🔥 JavaScript, Everything about Everything Syllabus – Phase 1: Fundamentals
-
 ---
 
 ## 📦 1. Variables & Declarations
