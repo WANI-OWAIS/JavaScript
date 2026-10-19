@@ -1,4 +1,4 @@
-// Practice Zone
+// 🧪 Practice Zone
 
 // 1. Predict the output:
 // console.log(null + 1);
@@ -17,16 +17,18 @@
 // console.log(Boolean([]));
 // console.log(Boolean(undefined));
 
-// 4. Write a function isEmpty(value) that checks if a given value is 
+// 4. Write a function isEmpty(value)that checks if a given value is null , undefined , or "" .
 // function isEmpty(value) {
-//      return value === null || value === undefined || value === "";
+//     if(value === null || value === undefined || value === "") {
+//         return true;
+//     } else{
+//         return false;
+//     }
 // }
-
-// isEmpty("");   
-// isEmpty(null);     
-// isEmpty(undefined); 
-// isEmpty("Hi"); 
+// console.log(isEmpty(null));      
+// console.log(isEmpty(undefined)); 
+// console.log(isEmpty(""));   
 
 // 5. Compare with loose vs strict:
-// console.log(5 == "5");
-// console.log(5 === "5");
+console.log(5 == "5");
+console.log(5 === "5");
